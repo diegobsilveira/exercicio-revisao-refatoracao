@@ -6,6 +6,7 @@
 class Empregado {
 	
   public:
+    std::string nome;
     double salarioHora;  
     double quotaMensalVendas;  
 
