@@ -1,6 +1,8 @@
 #include "Engenheiro.cpp"
 #include "Vendedor.cpp"
 
+#include <iostream>
+
 int main() {
 
   Engenheiro eng1;
