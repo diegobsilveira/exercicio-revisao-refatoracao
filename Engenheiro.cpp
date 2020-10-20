@@ -1,9 +1,9 @@
-#include <string>
-#include "Empregado.hpp"
+#include "Engenheiro.hpp"
 
-class Engenheiro : public Empregado {
+void Engenheiro::setProjetos(int projetos) {
+    this->projetos = projetos;
+}
 
-  public:
-    int projetos;
-
-};
+int Engenheiro::getProjetos() {
+    return this->projetos;
+}

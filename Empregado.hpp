@@ -5,19 +5,16 @@
 
 class Empregado {
 	
-  public:
+  private:
     std::string nome;
     double salarioHora;  
-    double quotaMensalVendas;  
 
-
-    double pagamentoMes(double horasTrabalhadas) {
-      if (horasTrabalhadas > 8)
-        horasTrabalhadas += (horasTrabalhadas - 8) / 2;
-
-      return horasTrabalhadas * salarioHora;
-    }
-	
+  public:
+    void setSalarioHora(double salarioHora);
+    double getSalarioHora();
+    void setNome(std::string nome);
+    std::string getNome();
+    double pagamentoMes(double horasTrabalhadas);
 };
 
 #endif
